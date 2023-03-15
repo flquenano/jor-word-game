@@ -1,0 +1,23 @@
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameInputLabel {
+  margin-bottom: 0.25rem;
+}
+
+.gameInput {
+  height: 3rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  outline-offset: 4px;
+}
+
+.guessResults {
+  display: flex;
+  flex-direction: column;
+  & > p {
+    margin-bottom: 0.5rem;
+  }
+}
